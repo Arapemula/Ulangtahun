@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="text">
+            <p>Ada apa yaaa? 🤵‍♂️</p>
+            <div class="tombol" >
+                <button class="satu"><a href="2.html">Aku ulang tahunn lohh</a></button>
+                <button class="dua" style="display: block;"><a href="">gatau ahh males</a></button>
+            </div>
+        </div>
+    </section>
+    <script>
+        var tombol = document.getElementsByClassName("dua")[0];
+        tombol.addEventListener("click", function(event) {
+            event.preventDefault();
+            tombol.style.display = "none";
+        });
+    </script>
+</body>
+</html>

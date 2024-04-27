@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <section style="margin-top: 100px;   display: flex;flex-direction: column;justify-content: center;align-items: center;row-gap: 20px;">
+        <video    id="birthdayVideo" width="320" height="240" controls autoplay>
+            <source src="hbd3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button   id="nextButton" style="display:none ;width: 25vw; color: #DFD0B8;  background-color: #948979;"><a href="5.html">Next</a></button>
+    </section>
+
+    <script>
+        document.getElementById('birthdayVideo').onended = function() {
+            document.getElementById('nextButton').style.display = 'block';
+        };
+    </script>
+</body>
+</html>

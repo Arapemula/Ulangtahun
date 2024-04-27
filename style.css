@@ -1,0 +1,44 @@
+body{
+    background-color: #153448;
+    font-family: "Jersey 20";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    margin-top:180px ;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 70vw;
+    height: 30vh;
+    background-color: #3C5B6F;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    
+    color: #DFD0B8;
+}
+a{
+    text-decoration: none;
+    color: #DFD0B8;
+}
+.tombol{
+   display: flex;
+   column-gap: 4px;
+}
+button{
+    margin: 3px;
+    background: none;
+    border: none;
+    background-color: #948979;
+    padding: 6px;
+    border-radius: 10px;
+}
